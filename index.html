@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Frontend Mentor | E-commerce product page</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar bg-danger navbar-light">
+        <div class="container d-flex">
+          <div class="d-flex">
+            <div class="pe-3">
+              <i class="ri-menu-2-fill text-white" id="menu-bar"></i>
+            </div>
+            <div>
+              <img
+                class="pulse-logo"
+                src="https://sportal365images.com/process/smp-images-production/pulse.ng/22122024/fc22d746-2b7d-44d9-92c7-9f2e6069b42a.png"
+                alt="logo"
+              />
+            </div>
+            <div class="">
+              <img
+                class="flag-logo"
+                src="https://www.pulse.ng/images/flag-nigeria.png"
+                alt="logo"
+              />
+            </div>
+          </div>
+          <div class="d-flex align-item-center text-light gap-3">
+            <ul class="header-list d-flex align-items-center gap-3">
+              <li><a>Editions:</a></li>
+              <li><a>Ghana</a></li>
+              <li><a>Kenya</a></li>
+              <li><a>Home</a></li>
+            </ul>
+            <div
+              class="search bg-white rounded-pill d-flex align-items-cen p-2"
+            >
+              <i class="ri-search-line text-black"></i>
+              <input type="text" class="border-0" placeholder="Search" />
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container-fluid mt-3">
+      <div class="row">
+        <div class="col-sm-1 p-3 bg-light text-black">
+          <div>
+            <i class="ri-home-5-line ps-3" id="home-icon"></i>
+            <p>Home</p>
+          </div>
+          <div>
+            <i class="ri-video-line ps-3"></i>
+            <p>Video</p>
+          </div>
+        </div>
+        <div class="col-sm-7 p-3 bg-white text-black">
+          <section>
+            <div class="d-flex align-items-center">
+              <div class="">
+                <i class="ri-arrow-left-line text-dark opacity-25"></i>
+              </div>
+              <div class="">
+                <button
+                  type="button"
+                  class="btn btn-red-c rounded-pill text-white"
+                  id="button1"
+                >
+                  All categories
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-ora-c rounded-pill"
+                  id="for-mac"
+                >
+                  News
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-ora-c rounded-pill"
+                  id="for-mac"
+                >
+                  Lifestyle
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-ora-c rounded-pill"
+                  id="for-mac"
+                >
+                  Etertainment
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-ora-c rounded-pill"
+                  id="for-mac"
+                >
+                  Pulse pick
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-ora-c rounded-pill"
+                  id="for-mac"
+                >
+                  Business
+                </button>
+                <button
+                  type="button"
+                  class="btn btn-ora-c rounded-pill"
+                  id="for-mac"
+                >
+                  Video
+                </button> 
+              </div>
+              <div class=""><i class="ri-arrow-right-line text-black"></i></div>
+            </div>
+          </section>
+          <div class="d-flex gap-2">
+            <div class="py-5">
+              <img class="atiku-obi" src="obi and atiku.jpg" />
+            </div>
+            <div class="pt-5">
+              <button
+                type="button"
+                class="btn btn-link text-black m-2 rounded-pill"
+                id="button2"
+              >
+                Politics
+              </button>
+              <h5 class="">
+                2027:Atiku offers Obi Vp slot, commits to one term
+              </h5>
+            </div>
+          </div>
+          <div class="d-flex gap-5">
+            <div>
+              <img class="biden" src="joe biden.jpg" />
+            </div>
+            <div>
+              <button
+                type="button"
+                class="btn btn-link text-black m-2 rounded-pill ms-4"
+                id="button2"
+              >
+                World
+              </button>
+              <h5 class="ps-3">
+                Ex-US President Biden daignosed with aggressive postrate cancer
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-4 p-3 bg-light text-white">
+          <div class="d-flex position-relative gap-1">
+            <div class="arrow-button1 mt-4 position-absolute">
+              <i class="ri-arrow-left-line text-black"></i>
+            </div>
+            <div class="">
+              <img class="rounded-pics" src="food.webp" />
+              <p class="text-black">Top courses...</p>
+            </div>
+            <div class="">
+              <img class="rounded-pics" src="food2.webp" />
+              <p class="text-black ">Healthy...</p>
+            </div>
+            <div class="">
+              <img class="rounded-pics" src="woman.webp" />
+              <p class="text-black">Cultural...</p>
+            </div>
+            <div class="d-flex  position-relative pe-5">
+            <div class="">
+              <img class="rounded-pics" src="food 4.webp" />
+              <p class="text-black">Nigerian...</p>
+            </div>
+            <div class="arrow-button2 mt-4 position-absolute">
+              <i class="ri-arrow-right-line text-black"></i>
+            </div>
+            </div>
+          </div>
+          <div class="text-black"><h5>Trending</h5></div>
+          <div class="main-conatainer">
+            <div class="container-1 d-flex text-black bg-warning-subtle mb-3">
+              <div>
+                <button
+                  type="button"
+                  class="btn btn-light m-2 rounded-pill"
+                  id="button2"
+                >
+                  Pulse pick
+                </button>
+                <h5>The Cheapest Itel Phones to buy right now</h5>
+              </div>
+              <div class="p-2">
+                <img class="side-image" src="phone-pulse.jpg" />
+              </div>
+            </div>
+            <div class="container-2 d-flex text-black bg-warning-subtle mb-3">
+              <div>
+                <button
+                  type="button"
+                  class="btn btn-light m-2 rounded-pill"
+                  id="button2"
+                >
+                  Lifestyle
+                </button>
+                <h5>Remote jobs Nigerian are Wining at - how to get</h5>
+              </div>
+              <div class="p-2">
+                <img class="side-image" src="desktop and laptop.jpg" />
+              </div>
+            </div>
+            <div class="container-3 d-flex text-black bg-warning-subtle">
+              <div>
+                <button
+                  type="button"
+                  class="btn btn-light m-2 rounded-pill"
+                  id="button2"
+                >
+                  Lifestyle
+                </button>
+                <h5>How Nigerian Women tie Ankara 5- steps</h5>
+              </div>
+              <div class="p-2"><img class="side-image" src="ankara.png" /></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

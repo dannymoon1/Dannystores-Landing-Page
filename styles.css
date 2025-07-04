@@ -1,0 +1,96 @@
+dl, ol, ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+li {
+    list-style-type: none;
+}
+.pulse-logo{
+    width: 55px;
+}
+.flag-logo{
+    width: 15px;
+    padding-bottom: 16px;
+    
+}
+.search{
+    height:40px;
+}
+.search input:focus{
+    box-shadow: none;
+    outline: none;
+    border: none;
+}
+
+.atiku-obi{
+    width: 100%;
+
+}
+.biden{
+    width: 125%;
+
+}
+.side-image{
+    width: 100%;
+}
+#for-mac{
+    font-size: 12px;
+}
+#button1{
+    height: 35px;  
+}
+.rounded-pics{
+    width: 68px;
+    height: 68px;
+    border-radius: 50%;
+   
+}
+.arrow-button1{
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    left: -10px;
+}
+.arrow-button2{
+   background-color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%; 
+    left: 49px; 
+}
+#button2{
+    background-color: azure;
+    
+}
+.btn-red-c{
+    background-color: #ab2923;
+    font-size: 13px;
+}
+.btn-ora-c{
+    background-color: #faefef;
+}
+
+
+/* .main-container{  
+display: grid !important;
+height: auto !important;
+width: fit-content !important;
+    padding: 20px !important;
+    margin:10px auto !important;
+    grid-template-columns: repeat(1, 600px) !important;
+    grid-template-rows: repeat(3, 650px) !important;
+    gap: 15px !important;
+}
+.container-1{
+    grid-column: span 2 !important;
+    background-color: bisque !important;
+}
+.container-2{
+    grid-area: 1/ 1 / 2 / 2 !important;
+    background-color: bisque !important;
+}
+.container-3{
+    grid-area: 1/ 1 / 2 / 2 !important;
+    background-color: bisque !important;
+}
